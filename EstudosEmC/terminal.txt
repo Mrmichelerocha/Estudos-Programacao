@@ -1,0 +1,21 @@
+# Estudos_em_C
+comandos terminal
+
+::: https://www.lucascaton.com.br/2018/01/07/comandos-para-o-terminal-windows-macos-e-linux/
+
+em c terminal
+::: https://fig.if.usp.br/~esdobay/c/gcc.html
+
+
+compilar em c++:
+g++ *.cpp -o nome do teste 
+
+para executar:
+nome do teste.exe
+
+compilar no terminal em c:
+gcc nome do programa -o nome do teste 
+
+para executar:
+nome do teste => ./nome do teste
+

@@ -1,0 +1,94 @@
+			FORMATAÇÃO DO TEXTO:::
+✓ font-family: Os tipos de letra usado.
+✓ font-size: Tamanho das letras. Unidades possíveis: px, %.
+✓ font-style: Estilo das letras. Opções: normal ou italic.
+✓ font-weight: Espessura das letras. Opções: lighter, normal, bold ou bolder.
+✓ text-decoration: Efeitos que será aplicado ao texto. Opções: none, underline, overline, linethrough.
+			
+			APRESENTAÇÃO DO TEXTO:::
+✓ text-align: Alinhamento do texto. Opções: left, right, justify, center.
+✓ text-indent: Alinhamento da primeira linha de um bloco de texto.
+✓ line-height: Altura de cada linha num bloco de texto.
+✓ letter-spacing: Espaçamento entre letras.
+✓ word-spacing: Espaçamento entre palavras.
+
+			DEFINIÇÃO DE CORES:::
+✓ color: Cor do texto do elemento.
+✓ background-color: Cor do fundo do
+elemento
+
+			CONTORNO DE UM LUGAR:::
+▪ border: alteração de todo o contorno.
+▪ border-top: alteração apenas do contorno de topo.
+▪ border-bottom: contorno inferior.
+▪ border-left: contorno esquerdo.
+▪ border-right: contorno direito
+
+▪ Espessura: definida em píxels.
+▪ Estilo: none, dotted, dashed, solid, double, groove, ridge.
+▪ Cor: valor da cor.
+
+			MARGEM DO ELEMENTO:::
+▪ margin: alteração da margem de todo o elemento.
+▪ margin-top: alteração apenas da margem de topo.
+▪ margin-bottom: margem inferior.
+▪ margin-left: margem esquerda.
+▪ margin-right: margem direita.
+
+			ESPAÇAMENTO INTERNO:::
+▪ padding: alteração do espaçamento interno de todo o elemento.
+▪ padding-top: alteração apenas do espaçamento interno de topo.
+▪ padding-bottom: espaçamento interno inferior.
+▪ padding-left: espaçamento interno esquerdo.
+▪ padding-right: espaçamento interno direito.
+
+
+			LISTAS:::
+✓ list-style-type:
+▪ Marcadores não numéricos: none, disc, circle,
+square.
+▪ Marcadores numéricos: none, decimal,
+decimal-leading-zero, lowerroman, upperroman, lower-latin, upper-latin.
+
+			PROPRIEDADE DE POSIÇÃO:::
+▪ static: O elemento é posicionado segundo o fluxo
+normal. Este é o valor definido por omissão.
+▪ relative: A posição do elemento é calculada em
+relação à posição original segundo o modelo
+estático.
+▪ absolute: A posição do elemento é especificada
+com as propriedades top, right, bottom e left
+relativamente ao elemento que o contém.
+▪ fixed: O cálculo da posição é igual ao método
+absoluto mas o elemento pai é a "janela de
+visualização" (o navegador).
+
+
+
+			ATRIBUTOS DE CLASSES:
+<p class="primeiro">o primeiro</p>
+<p class="segundo">o segundo</p> 
+<style>
+p{
+/*pega todo o p*/
+}
+p.primeiro{
+/*pega so o com class = primeiro*/
+}
+p.segundo{
+/*pega so o com class = segundo*/
+}
+/*para pegar varios é so colocar o nome e virgula depois*/
+</style>
+
+PARA PEGAR ELEMENTOS DENTRO DOS ELEMENTOS:
+<hender>
+	<h1>hellow</h1>
+</hender>
+<style>
+	hender h1{
+	}
+</style>
+
+
+

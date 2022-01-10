@@ -1,0 +1,57 @@
+h1 {
+    /* mudou a cor do titulo */
+    color: red;
+    /* mudou o estilo da fonte */
+    font-style: italic;
+    /* alinha o texto no centro, canto etc */
+    text-align: center;
+    /* coloca borda */
+    border: 2px solid black;
+    /* coloca bordas aredondadas */
+    border-radius: 10px 20px 30px 40px;
+}
+
+p {
+    /* muda o espaçamento das letras */
+    letter-spacing: 10px;
+    /* aumenta o tamanho da letra */
+    font-size: 10px;
+    /* colocar os negocio em negrito etc */
+    font-style: italic;
+    /* espaçamento entre as linhas do texto */
+    line-height: 3em;
+    /* muda a cor da letra */
+    color: red;
+    /* marca o texto com a cor */
+    background-color: rgba(158, 17, 17, 0.3);
+   
+}
+p {
+     /* espaça a letra */
+    /* letter-spacing: 0.50em; */
+    /* espaça a palavra */
+    /* word-spacing: 2.50em; */
+}
+
+h2 {
+    /* borda pontilhada */
+    border-top: 2px dotted red;
+    /* borda tracejada */
+    border-bottom: 2px dashed blueviolet;
+    /* coloca margens */
+    margin: 20px;
+}
+
+h3 {
+    /* aumenta o tamanho da caixa */
+    padding: 20px;
+    border: 2px solid black;
+}
+
+h4 {
+    /* coloca espaço para cima da caixa */
+    padding-top: 20px;
+    /* coloca espaço para baixo da caixa */
+    padding-bottom: 20px;
+    border: 2px solid black;
+}

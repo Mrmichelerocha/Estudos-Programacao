@@ -1,0 +1,16 @@
+entrada de dados de usuários.
+TAG <form>
+<input>
+<textarea>
+<button>
+<select>
+<option>
+<optgroup>
+<fieldset>
+<label>
+
+TAG <input>
+
+
+::::::para mais informações acessar o PDF => html.pdf 
+do professor de web na pagina 56
